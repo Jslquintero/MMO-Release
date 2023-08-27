@@ -1,0 +1,121 @@
+﻿2023-08-27 03:19:52.469 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-08-27 03:19:52.797 [Warn] FileNotFoundException: Missing configuration file.
+    Stack:    en Intersect.Configuration.ConfigurationHelper.Load[T](T configuration, String filePath, Boolean failQuietly)
+   en Intersect.Server.Web.RestApi.Configuration.ApiConfiguration.Load(String filePath, Boolean failQuietly)
+   en Intersect.Configuration.ConfigurationHelper.LoadSafely[T](T configuration, String filePath)
+
+
+--------------------------------------------------------------------------------
+2023-08-27 03:19:57.186 [Info] Checking for broken Quest Task Completion Events, this process might take several minutes depending on your quest count!
+
+--------------------------------------------------------------------------------
+2023-08-27 03:19:57.539 [Info] Checking to see if there are any guilds exceeding the configured max bank size...
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:44.316 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:44.316 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+This server reporting an invalid player count and may not be accessible, please see the Port Forwarding documentation for more information: https://docs.freemmorpgmaker.com/en-US/deploy/forwarding/
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Se produjo una excepción de tipo 'Open.Nat.NatDeviceNotFoundException'.
+    Stack:    en Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:59.039 [Debug] hail Time=201 Offset=63828703258226 Real=63828703258427
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:59.039 [Debug] local Time=14754 Offset=63828703244285 Real=63828703259039
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:59.039 [Debug] real delta=612
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:59.039 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:59.085 [Info] Connection approved [f358abca-36cc-42bb-ae25-fb7ac0f58459].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:59.100 [Debug] Connection established to remote [f358abca-36cc-42bb-ae25-fb7ac0f58459/127.0.0.1:65440].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:20:59.101 [Info] Connected [f358abca-36cc-42bb-ae25-fb7ac0f58459].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:22:43.946 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map New Map
+
+--------------------------------------------------------------------------------
+2023-08-27 03:22:57.346 [Debug] StatusChanged: [NetIncomingMessage #0 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------
+2023-08-27 03:22:57.347 [Debug] Connection terminated to remote [f358abca-36cc-42bb-ae25-fb7ac0f58459/127.0.0.1:65440].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:22:57.347 [Info] Disconnected [f358abca-36cc-42bb-ae25-fb7ac0f58459].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:22:57.347 [Debug] Client disconnected (Grainne->daun)
+
+--------------------------------------------------------------------------------
+2023-08-27 03:23:03.685 [Debug] hail Time=0 Offset=63828703383309 Real=63828703383309
+
+--------------------------------------------------------------------------------
+2023-08-27 03:23:03.685 [Debug] local Time=139400 Offset=63828703244285 Real=63828703383685
+
+--------------------------------------------------------------------------------
+2023-08-27 03:23:03.685 [Debug] real delta=376
+
+--------------------------------------------------------------------------------
+2023-08-27 03:23:03.685 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-08-27 03:23:03.685 [Info] Connection approved [06a8723f-6c39-4e5d-972f-d03e7695bcd9].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:23:03.699 [Debug] Connection established to remote [06a8723f-6c39-4e5d-972f-d03e7695bcd9/127.0.0.1:62941].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:23:03.699 [Info] Connected [06a8723f-6c39-4e5d-972f-d03e7695bcd9].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:28:13.252 [Debug] hail Time=214 Offset=63828703692680 Real=63828703692895
+
+--------------------------------------------------------------------------------
+2023-08-27 03:28:13.252 [Debug] local Time=448966 Offset=63828703244285 Real=63828703693252
+
+--------------------------------------------------------------------------------
+2023-08-27 03:28:13.252 [Debug] real delta=357
+
+--------------------------------------------------------------------------------
+2023-08-27 03:28:13.252 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-08-27 03:28:13.252 [Info] Connection approved [86326223-bb49-4495-a020-6bf3cbdc2cd7].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:28:13.266 [Debug] Connection established to remote [86326223-bb49-4495-a020-6bf3cbdc2cd7/127.0.0.1:60787].
+
+--------------------------------------------------------------------------------
+2023-08-27 03:28:13.266 [Info] Connected [86326223-bb49-4495-a020-6bf3cbdc2cd7].
+
+--------------------------------------------------------------------------------
