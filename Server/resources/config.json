@@ -93,7 +93,7 @@
     "LogLevel": "Error"
   },
   "Map": {
-    "EnableDiagonalMovement": false,
+    "EnableDiagonalMovement": true,
     "GameBorderStyle": 0,
     "ItemAttributeRespawnTime": 15000,
     "Layers": {
