@@ -1,0 +1,93 @@
+﻿2023-08-28 00:48:07.650 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-08-28 00:48:07.656 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-08-28 00:48:52.847 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-08-28 00:48:52.848 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+This server reporting an invalid player count and may not be accessible, please see the Port Forwarding documentation for more information: https://docs.freemmorpgmaker.com/en-US/deploy/forwarding/
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Se produjo una excepción de tipo 'Open.Nat.NatDeviceNotFoundException'.
+    Stack:    en Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+UPnP failed, please verify the server status manually using a client.
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:12.142 [Debug] hail Time=161 Offset=63828780551437 Real=63828780551598
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:12.143 [Debug] local Time=19352 Offset=63828780532787 Real=63828780552139
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:12.143 [Debug] real delta=541
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:12.143 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:12.180 [Info] Connection approved [0c3ea081-5900-4e8d-a954-fdeef4b7016c].
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:12.196 [Debug] Connection established to remote [0c3ea081-5900-4e8d-a954-fdeef4b7016c/127.0.0.1:62056].
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:12.196 [Info] Connected [0c3ea081-5900-4e8d-a954-fdeef4b7016c].
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:18.287 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map granjisha
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:18.298 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map New Map
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:27.606 [Debug] hail Time=0 Offset=63828780567207 Real=63828780567207
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:27.606 [Debug] local Time=34819 Offset=63828780532787 Real=63828780567606
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:27.606 [Debug] real delta=398
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:27.607 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:27.607 [Info] Connection approved [3dea545d-f8c2-4e7d-965c-ddd07770666b].
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:27.619 [Debug] Connection established to remote [3dea545d-f8c2-4e7d-965c-ddd07770666b/127.0.0.1:61398].
+
+--------------------------------------------------------------------------------
+2023-08-28 00:49:27.619 [Info] Connected [3dea545d-f8c2-4e7d-965c-ddd07770666b].
+
+--------------------------------------------------------------------------------
+2023-08-28 01:28:59.596 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map New Map
+
+--------------------------------------------------------------------------------
+2023-08-28 02:27:33.901 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map New Map
+
+--------------------------------------------------------------------------------
+2023-08-28 02:28:37.015 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map New Map
+
+--------------------------------------------------------------------------------
