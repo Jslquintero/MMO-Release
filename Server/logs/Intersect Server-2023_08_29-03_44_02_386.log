@@ -1,0 +1,69 @@
+﻿2023-08-29 06:44:02.521 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-08-29 06:44:02.554 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-08-29 06:44:06.391 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-08-29 06:44:06.391 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+This server reporting an invalid player count and may not be accessible, please see the Port Forwarding documentation for more information: https://docs.freemmorpgmaker.com/en-US/deploy/forwarding/
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Se produjo una excepción de tipo 'Open.Nat.NatDeviceNotFoundException'.
+    Stack:    en Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+UPnP failed, please verify the server status manually using a client.
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.962 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.963 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.964 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.966 [Info] Disposing network... (0ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.967 [Info] Saving updated server variable values
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.967 [Info] Saving online users/players... (2ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.987 [Info] Saving loaded guilds....
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.987 [Info] Online users/players saved. (21ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.987 [Info] Shutting down the API... (21ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.988 [Info] Base dispose. (22ms)
+
+--------------------------------------------------------------------------------
+2023-08-29 06:46:04.988 [Info] Finished disposing server context. (22ms)
+
+--------------------------------------------------------------------------------
