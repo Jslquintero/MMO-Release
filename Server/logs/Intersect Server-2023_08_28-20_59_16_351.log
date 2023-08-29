@@ -1,0 +1,93 @@
+﻿2023-08-28 23:59:16.491 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:16.527 [Debug] Loaded new formula from BaseExp * Power(Gain, Level).
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:20.651 [Warn] Directory was specified as a plugin directory but does not exist: 'resources\plugins'
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:20.652 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+Listening on 0.0.0.0:5400.
+
+--------------------------------------------------------------------------------
+This server reporting an invalid player count and may not be accessible, please see the Port Forwarding documentation for more information: https://docs.freemmorpgmaker.com/en-US/deploy/forwarding/
+
+--------------------------------------------------------------------------------
+Port 5400 is not open, trying UPnP...
+
+--------------------------------------------------------------------------------
+UPnP failed, please verify the server status manually using a client.
+
+--------------------------------------------------------------------------------
+UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.
+NatDeviceNotFoundException: Se produjo una excepción de tipo 'Open.Nat.NatDeviceNotFoundException'.
+    Stack:    en Open.Nat.NatDiscoverer.<DiscoverDeviceAsync>d__5.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en Intersect.Server.Networking.Helpers.UpnP.<ConnectNatDevice>d__4.MoveNext()
+
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:31.654 [Debug] hail Time=180 Offset=63828863970777 Real=63828863970958
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:31.654 [Debug] local Time=11063 Offset=63828863960591 Real=63828863971654
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:31.654 [Debug] real delta=696
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:31.654 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:31.691 [Info] Connection approved [b20456ad-356f-467b-bc97-c93b3a48eaa7].
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:31.713 [Debug] Connection established to remote [b20456ad-356f-467b-bc97-c93b3a48eaa7/127.0.0.1:54953].
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:31.713 [Info] Connected [b20456ad-356f-467b-bc97-c93b3a48eaa7].
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:37.478 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map Salida Sur de la granjisha
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:37.485 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map Rio
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:37.485 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map Entrada al puente
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:37.486 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map granjisha
+
+--------------------------------------------------------------------------------
+2023-08-28 23:59:37.486 [Debug] Creating new instance with ID 00000000-0000-0000-0000-000000000000 for map New Map
+
+--------------------------------------------------------------------------------
+2023-08-29 00:00:44.975 [Debug] hail Time=0 Offset=63828864044585 Real=63828864044585
+
+--------------------------------------------------------------------------------
+2023-08-29 00:00:44.975 [Debug] local Time=84378 Offset=63828863960591 Real=63828864044969
+
+--------------------------------------------------------------------------------
+2023-08-29 00:00:44.975 [Debug] real delta=384
+
+--------------------------------------------------------------------------------
+2023-08-29 00:00:44.975 [Debug] NCPing=-1000
+
+--------------------------------------------------------------------------------
+2023-08-29 00:00:44.975 [Info] Connection approved [e2cdf2ab-ef23-4b1c-9223-610f86a698b1].
+
+--------------------------------------------------------------------------------
+2023-08-29 00:00:44.989 [Debug] Connection established to remote [e2cdf2ab-ef23-4b1c-9223-610f86a698b1/127.0.0.1:62323].
+
+--------------------------------------------------------------------------------
+2023-08-29 00:00:44.989 [Info] Connected [e2cdf2ab-ef23-4b1c-9223-610f86a698b1].
+
+--------------------------------------------------------------------------------
